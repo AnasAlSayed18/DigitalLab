@@ -1,4 +1,4 @@
-# 🔧 DigitalLab – FPGA-Based Digital Logic Projects
+# 🔧 DigitalLab – ENCS2110 
 
 Welcome to the **DigitalLab** repository! This project contains a series of digital logic design experiments implemented using **Verilog HDL** and tested on an **FPGA board**. These experiments were part of the **Digital Electronics and Computer Organization Laboratory (ENCS2110)** course at the Faculty of Engineering and Technology.
 
