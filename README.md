@@ -8,8 +8,7 @@ This repository contains Verilog-based implementations and FPGA simulation files
 - **Course Code**: ENCS2110
 - **Faculty**: Engineering and Technology
 - **Department**: Electrical and Computer Engineering
-- **Instructor**: Dr. Hanya Radwan
-- **Lab Assistant**: Ms. Katy Sadi
+
 
 ---
 
