@@ -37,23 +37,6 @@ This repository contains Verilog-based implementations and FPGA simulation files
 
 ---
 
-## 📂 Repository Structure
-
-\`\`\`
-DigitalLab/
-│
-├── Experiment_1/                # Basic Logic Gates
-├── Experiment_2/                # Adders, Subtractors, Comparators
-├── Experiment_3/                # Encoders, Decoders, MUX, DEMUX
-├── Experiment_4/                # Breadboard Circuit Implementations
-├── Experiment_5_to_7/           # Sequential & Memory Circuits
-├── Experiment_8/                # Quartus Introduction Project
-├── Experiment_9_SecuritySystem/ # FPGA Digital Lock
-└── README.md                    # Project overview
-\`\`\`
-
----
-
 ## 🔐 Highlight: Security System Using FPGA
 
 A two-digit digital lock was implemented using:
