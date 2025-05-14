@@ -1,0 +1,1077 @@
+Simulator report for exp10
+Tue Apr 30 09:12:27 2024
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 634 nodes    ;
+; Simulation Coverage         ;      51.58 % ;
+; Total Number of Transitions ; 6204         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Vector input source                                                                        ; wav2.vwf   ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++-------------------------------------------------------------------------------+
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ALTSYNCRAM ;
++-------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      51.58 % ;
+; Total nodes checked                                 ; 634          ;
+; Total output ports checked                          ; 634          ;
+; Total output ports with complete 1/0-value coverage ; 327          ;
+; Total output ports with no 1/0-value coverage       ; 274          ;
+; Total output ports with no 1-value coverage         ; 288          ;
+; Total output ports with no 0-value coverage         ; 293          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                            ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                        ; Output Port Name                                                                 ; Output Port Type ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; |SIMCOMP121|WideOr0                                                              ; |SIMCOMP121|WideOr0                                                              ; out0             ;
+; |SIMCOMP121|PC~9                                                                 ; |SIMCOMP121|PC~9                                                                 ; out              ;
+; |SIMCOMP121|PC~10                                                                ; |SIMCOMP121|PC~10                                                                ; out              ;
+; |SIMCOMP121|PC~11                                                                ; |SIMCOMP121|PC~11                                                                ; out              ;
+; |SIMCOMP121|state~0                                                              ; |SIMCOMP121|state~0                                                              ; out              ;
+; |SIMCOMP121|state~1                                                              ; |SIMCOMP121|state~1                                                              ; out              ;
+; |SIMCOMP121|state~2                                                              ; |SIMCOMP121|state~2                                                              ; out              ;
+; |SIMCOMP121|state~3                                                              ; |SIMCOMP121|state~3                                                              ; out              ;
+; |SIMCOMP121|state~4                                                              ; |SIMCOMP121|state~4                                                              ; out              ;
+; |SIMCOMP121|AC~0                                                                 ; |SIMCOMP121|AC~0                                                                 ; out              ;
+; |SIMCOMP121|AC~1                                                                 ; |SIMCOMP121|AC~1                                                                 ; out              ;
+; |SIMCOMP121|AC~2                                                                 ; |SIMCOMP121|AC~2                                                                 ; out              ;
+; |SIMCOMP121|AC~3                                                                 ; |SIMCOMP121|AC~3                                                                 ; out              ;
+; |SIMCOMP121|AC~4                                                                 ; |SIMCOMP121|AC~4                                                                 ; out              ;
+; |SIMCOMP121|AC~5                                                                 ; |SIMCOMP121|AC~5                                                                 ; out              ;
+; |SIMCOMP121|AC~6                                                                 ; |SIMCOMP121|AC~6                                                                 ; out              ;
+; |SIMCOMP121|AC~7                                                                 ; |SIMCOMP121|AC~7                                                                 ; out              ;
+; |SIMCOMP121|AC~8                                                                 ; |SIMCOMP121|AC~8                                                                 ; out              ;
+; |SIMCOMP121|AC~9                                                                 ; |SIMCOMP121|AC~9                                                                 ; out              ;
+; |SIMCOMP121|AC~10                                                                ; |SIMCOMP121|AC~10                                                                ; out              ;
+; |SIMCOMP121|AC~11                                                                ; |SIMCOMP121|AC~11                                                                ; out              ;
+; |SIMCOMP121|AC~12                                                                ; |SIMCOMP121|AC~12                                                                ; out              ;
+; |SIMCOMP121|AC~13                                                                ; |SIMCOMP121|AC~13                                                                ; out              ;
+; |SIMCOMP121|AC~14                                                                ; |SIMCOMP121|AC~14                                                                ; out              ;
+; |SIMCOMP121|AC~15                                                                ; |SIMCOMP121|AC~15                                                                ; out              ;
+; |SIMCOMP121|state~5                                                              ; |SIMCOMP121|state~5                                                              ; out              ;
+; |SIMCOMP121|state~6                                                              ; |SIMCOMP121|state~6                                                              ; out              ;
+; |SIMCOMP121|state~7                                                              ; |SIMCOMP121|state~7                                                              ; out              ;
+; |SIMCOMP121|state~8                                                              ; |SIMCOMP121|state~8                                                              ; out              ;
+; |SIMCOMP121|state~9                                                              ; |SIMCOMP121|state~9                                                              ; out              ;
+; |SIMCOMP121|state~10                                                             ; |SIMCOMP121|state~10                                                             ; out              ;
+; |SIMCOMP121|state~11                                                             ; |SIMCOMP121|state~11                                                             ; out              ;
+; |SIMCOMP121|state~12                                                             ; |SIMCOMP121|state~12                                                             ; out              ;
+; |SIMCOMP121|state~13                                                             ; |SIMCOMP121|state~13                                                             ; out              ;
+; |SIMCOMP121|state~14                                                             ; |SIMCOMP121|state~14                                                             ; out              ;
+; |SIMCOMP121|AC~16                                                                ; |SIMCOMP121|AC~16                                                                ; out              ;
+; |SIMCOMP121|AC~17                                                                ; |SIMCOMP121|AC~17                                                                ; out              ;
+; |SIMCOMP121|AC~18                                                                ; |SIMCOMP121|AC~18                                                                ; out              ;
+; |SIMCOMP121|AC~19                                                                ; |SIMCOMP121|AC~19                                                                ; out              ;
+; |SIMCOMP121|AC~20                                                                ; |SIMCOMP121|AC~20                                                                ; out              ;
+; |SIMCOMP121|AC~21                                                                ; |SIMCOMP121|AC~21                                                                ; out              ;
+; |SIMCOMP121|AC~22                                                                ; |SIMCOMP121|AC~22                                                                ; out              ;
+; |SIMCOMP121|AC~23                                                                ; |SIMCOMP121|AC~23                                                                ; out              ;
+; |SIMCOMP121|AC~24                                                                ; |SIMCOMP121|AC~24                                                                ; out              ;
+; |SIMCOMP121|AC~25                                                                ; |SIMCOMP121|AC~25                                                                ; out              ;
+; |SIMCOMP121|AC~26                                                                ; |SIMCOMP121|AC~26                                                                ; out              ;
+; |SIMCOMP121|AC~27                                                                ; |SIMCOMP121|AC~27                                                                ; out              ;
+; |SIMCOMP121|AC~28                                                                ; |SIMCOMP121|AC~28                                                                ; out              ;
+; |SIMCOMP121|AC~29                                                                ; |SIMCOMP121|AC~29                                                                ; out              ;
+; |SIMCOMP121|AC~30                                                                ; |SIMCOMP121|AC~30                                                                ; out              ;
+; |SIMCOMP121|AC~31                                                                ; |SIMCOMP121|AC~31                                                                ; out              ;
+; |SIMCOMP121|AC~32                                                                ; |SIMCOMP121|AC~32                                                                ; out              ;
+; |SIMCOMP121|AC~33                                                                ; |SIMCOMP121|AC~33                                                                ; out              ;
+; |SIMCOMP121|AC~34                                                                ; |SIMCOMP121|AC~34                                                                ; out              ;
+; |SIMCOMP121|AC~35                                                                ; |SIMCOMP121|AC~35                                                                ; out              ;
+; |SIMCOMP121|AC~36                                                                ; |SIMCOMP121|AC~36                                                                ; out              ;
+; |SIMCOMP121|AC~37                                                                ; |SIMCOMP121|AC~37                                                                ; out              ;
+; |SIMCOMP121|AC~38                                                                ; |SIMCOMP121|AC~38                                                                ; out              ;
+; |SIMCOMP121|AC~39                                                                ; |SIMCOMP121|AC~39                                                                ; out              ;
+; |SIMCOMP121|AC~40                                                                ; |SIMCOMP121|AC~40                                                                ; out              ;
+; |SIMCOMP121|AC~41                                                                ; |SIMCOMP121|AC~41                                                                ; out              ;
+; |SIMCOMP121|AC~42                                                                ; |SIMCOMP121|AC~42                                                                ; out              ;
+; |SIMCOMP121|AC~43                                                                ; |SIMCOMP121|AC~43                                                                ; out              ;
+; |SIMCOMP121|AC~44                                                                ; |SIMCOMP121|AC~44                                                                ; out              ;
+; |SIMCOMP121|AC~45                                                                ; |SIMCOMP121|AC~45                                                                ; out              ;
+; |SIMCOMP121|AC~46                                                                ; |SIMCOMP121|AC~46                                                                ; out              ;
+; |SIMCOMP121|AC~47                                                                ; |SIMCOMP121|AC~47                                                                ; out              ;
+; |SIMCOMP121|state~15                                                             ; |SIMCOMP121|state~15                                                             ; out              ;
+; |SIMCOMP121|state~16                                                             ; |SIMCOMP121|state~16                                                             ; out              ;
+; |SIMCOMP121|state~17                                                             ; |SIMCOMP121|state~17                                                             ; out              ;
+; |SIMCOMP121|state~18                                                             ; |SIMCOMP121|state~18                                                             ; out              ;
+; |SIMCOMP121|state~19                                                             ; |SIMCOMP121|state~19                                                             ; out              ;
+; |SIMCOMP121|Memory~0                                                             ; |SIMCOMP121|Memory~0                                                             ; out              ;
+; |SIMCOMP121|AC~48                                                                ; |SIMCOMP121|AC~48                                                                ; out              ;
+; |SIMCOMP121|AC~49                                                                ; |SIMCOMP121|AC~49                                                                ; out              ;
+; |SIMCOMP121|AC~50                                                                ; |SIMCOMP121|AC~50                                                                ; out              ;
+; |SIMCOMP121|AC~51                                                                ; |SIMCOMP121|AC~51                                                                ; out              ;
+; |SIMCOMP121|AC~52                                                                ; |SIMCOMP121|AC~52                                                                ; out              ;
+; |SIMCOMP121|AC~53                                                                ; |SIMCOMP121|AC~53                                                                ; out              ;
+; |SIMCOMP121|AC~54                                                                ; |SIMCOMP121|AC~54                                                                ; out              ;
+; |SIMCOMP121|AC~55                                                                ; |SIMCOMP121|AC~55                                                                ; out              ;
+; |SIMCOMP121|AC~56                                                                ; |SIMCOMP121|AC~56                                                                ; out              ;
+; |SIMCOMP121|AC~57                                                                ; |SIMCOMP121|AC~57                                                                ; out              ;
+; |SIMCOMP121|AC~58                                                                ; |SIMCOMP121|AC~58                                                                ; out              ;
+; |SIMCOMP121|AC~59                                                                ; |SIMCOMP121|AC~59                                                                ; out              ;
+; |SIMCOMP121|AC~60                                                                ; |SIMCOMP121|AC~60                                                                ; out              ;
+; |SIMCOMP121|AC~61                                                                ; |SIMCOMP121|AC~61                                                                ; out              ;
+; |SIMCOMP121|AC~62                                                                ; |SIMCOMP121|AC~62                                                                ; out              ;
+; |SIMCOMP121|AC~63                                                                ; |SIMCOMP121|AC~63                                                                ; out              ;
+; |SIMCOMP121|state~20                                                             ; |SIMCOMP121|state~20                                                             ; out              ;
+; |SIMCOMP121|state~21                                                             ; |SIMCOMP121|state~21                                                             ; out              ;
+; |SIMCOMP121|Memory~1                                                             ; |SIMCOMP121|Memory~1                                                             ; out              ;
+; |SIMCOMP121|state~25                                                             ; |SIMCOMP121|state~25                                                             ; out              ;
+; |SIMCOMP121|Memory~2                                                             ; |SIMCOMP121|Memory~2                                                             ; out              ;
+; |SIMCOMP121|AC[3]~reg0                                                           ; |SIMCOMP121|AC[3]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[1]~reg0                                                           ; |SIMCOMP121|AC[1]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[0]~reg0                                                           ; |SIMCOMP121|AC[0]~reg0                                                           ; regout           ;
+; |SIMCOMP121|MBR[0]~reg0                                                          ; |SIMCOMP121|MBR[0]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[1]~reg0                                                          ; |SIMCOMP121|MBR[1]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[3]~reg0                                                          ; |SIMCOMP121|MBR[3]~reg0                                                          ; regout           ;
+; |SIMCOMP121|PC[0]~reg0                                                           ; |SIMCOMP121|PC[0]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[1]~reg0                                                           ; |SIMCOMP121|PC[1]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[2]~reg0                                                           ; |SIMCOMP121|PC[2]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[0]~reg0                                                           ; |SIMCOMP121|IR[0]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[1]~reg0                                                           ; |SIMCOMP121|IR[1]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[2]~reg0                                                           ; |SIMCOMP121|IR[2]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[3]~reg0                                                           ; |SIMCOMP121|IR[3]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[4]~reg0                                                           ; |SIMCOMP121|IR[4]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[5]~reg0                                                           ; |SIMCOMP121|IR[5]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[12]~reg0                                                          ; |SIMCOMP121|IR[12]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[13]~reg0                                                          ; |SIMCOMP121|IR[13]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[14]~reg0                                                          ; |SIMCOMP121|IR[14]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[15]~reg0                                                          ; |SIMCOMP121|IR[15]~reg0                                                          ; regout           ;
+; |SIMCOMP121|state.100                                                            ; |SIMCOMP121|state.100                                                            ; regout           ;
+; |SIMCOMP121|state.011                                                            ; |SIMCOMP121|state.011                                                            ; regout           ;
+; |SIMCOMP121|state.010                                                            ; |SIMCOMP121|state.010                                                            ; regout           ;
+; |SIMCOMP121|state.001                                                            ; |SIMCOMP121|state.001                                                            ; regout           ;
+; |SIMCOMP121|state.000                                                            ; |SIMCOMP121|state.000                                                            ; regout           ;
+; |SIMCOMP121|MAR[0]~reg0                                                          ; |SIMCOMP121|MAR[0]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[1]~reg0                                                          ; |SIMCOMP121|MAR[1]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[2]~reg0                                                          ; |SIMCOMP121|MAR[2]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[3]~reg0                                                          ; |SIMCOMP121|MAR[3]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[4]~reg0                                                          ; |SIMCOMP121|MAR[4]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[5]~reg0                                                          ; |SIMCOMP121|MAR[5]~reg0                                                          ; regout           ;
+; |SIMCOMP121|clock                                                                ; |SIMCOMP121|clock                                                                ; out              ;
+; |SIMCOMP121|PC[0]                                                                ; |SIMCOMP121|PC[0]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[1]                                                                ; |SIMCOMP121|PC[1]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[2]                                                                ; |SIMCOMP121|PC[2]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[0]                                                                ; |SIMCOMP121|IR[0]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[1]                                                                ; |SIMCOMP121|IR[1]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[2]                                                                ; |SIMCOMP121|IR[2]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[3]                                                                ; |SIMCOMP121|IR[3]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[4]                                                                ; |SIMCOMP121|IR[4]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[5]                                                                ; |SIMCOMP121|IR[5]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[12]                                                               ; |SIMCOMP121|IR[12]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[13]                                                               ; |SIMCOMP121|IR[13]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[14]                                                               ; |SIMCOMP121|IR[14]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[15]                                                               ; |SIMCOMP121|IR[15]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[0]                                                               ; |SIMCOMP121|MBR[0]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[1]                                                               ; |SIMCOMP121|MBR[1]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[3]                                                               ; |SIMCOMP121|MBR[3]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[0]                                                                ; |SIMCOMP121|AC[0]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[1]                                                                ; |SIMCOMP121|AC[1]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[3]                                                                ; |SIMCOMP121|AC[3]                                                                ; pin_out          ;
+; |SIMCOMP121|MAR[0]                                                               ; |SIMCOMP121|MAR[0]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[1]                                                               ; |SIMCOMP121|MAR[1]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[2]                                                               ; |SIMCOMP121|MAR[2]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[3]                                                               ; |SIMCOMP121|MAR[3]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[4]                                                               ; |SIMCOMP121|MAR[4]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[5]                                                               ; |SIMCOMP121|MAR[5]                                                               ; pin_out          ;
+; |SIMCOMP121|state~26                                                             ; |SIMCOMP121|state~26                                                             ; out0             ;
+; |SIMCOMP121|state.000~0                                                          ; |SIMCOMP121|state.000~0                                                          ; out0             ;
+; |SIMCOMP121|WideOr8~0                                                            ; |SIMCOMP121|WideOr8~0                                                            ; out0             ;
+; |SIMCOMP121|Selector77~0                                                         ; |SIMCOMP121|Selector77~0                                                         ; out0             ;
+; |SIMCOMP121|WideOr8~1                                                            ; |SIMCOMP121|WideOr8~1                                                            ; out0             ;
+; |SIMCOMP121|Selector77~1                                                         ; |SIMCOMP121|Selector77~1                                                         ; out0             ;
+; |SIMCOMP121|WideOr8~2                                                            ; |SIMCOMP121|WideOr8~2                                                            ; out0             ;
+; |SIMCOMP121|state~30                                                             ; |SIMCOMP121|state~30                                                             ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[0]                                                   ; |SIMCOMP121|Memory_3_bypass[0]                                                   ; regout           ;
+; |SIMCOMP121|Memory~4                                                             ; |SIMCOMP121|Memory~4                                                             ; out0             ;
+; |SIMCOMP121|Memory~5                                                             ; |SIMCOMP121|Memory~5                                                             ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[1]                                                   ; |SIMCOMP121|Memory_3_bypass[1]                                                   ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[2]                                                   ; |SIMCOMP121|Memory_3_bypass[2]                                                   ; regout           ;
+; |SIMCOMP121|Memory~6                                                             ; |SIMCOMP121|Memory~6                                                             ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[3]                                                   ; |SIMCOMP121|Memory_3_bypass[3]                                                   ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[4]                                                   ; |SIMCOMP121|Memory_3_bypass[4]                                                   ; regout           ;
+; |SIMCOMP121|Memory~7                                                             ; |SIMCOMP121|Memory~7                                                             ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[5]                                                   ; |SIMCOMP121|Memory_3_bypass[5]                                                   ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[6]                                                   ; |SIMCOMP121|Memory_3_bypass[6]                                                   ; regout           ;
+; |SIMCOMP121|Memory~8                                                             ; |SIMCOMP121|Memory~8                                                             ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[7]                                                   ; |SIMCOMP121|Memory_3_bypass[7]                                                   ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[8]                                                   ; |SIMCOMP121|Memory_3_bypass[8]                                                   ; regout           ;
+; |SIMCOMP121|Memory~9                                                             ; |SIMCOMP121|Memory~9                                                             ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[9]                                                   ; |SIMCOMP121|Memory_3_bypass[9]                                                   ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[10]                                                  ; |SIMCOMP121|Memory_3_bypass[10]                                                  ; regout           ;
+; |SIMCOMP121|Memory~10                                                            ; |SIMCOMP121|Memory~10                                                            ; out0             ;
+; |SIMCOMP121|Memory_3_bypass[11]                                                  ; |SIMCOMP121|Memory_3_bypass[11]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[12]                                                  ; |SIMCOMP121|Memory_3_bypass[12]                                                  ; regout           ;
+; |SIMCOMP121|Memory~11                                                            ; |SIMCOMP121|Memory~11                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[13]                                                  ; |SIMCOMP121|Memory_3_bypass[13]                                                  ; regout           ;
+; |SIMCOMP121|Memory~12                                                            ; |SIMCOMP121|Memory~12                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[14]                                                  ; |SIMCOMP121|Memory_3_bypass[14]                                                  ; regout           ;
+; |SIMCOMP121|Memory~13                                                            ; |SIMCOMP121|Memory~13                                                            ; out              ;
+; |SIMCOMP121|Memory~14                                                            ; |SIMCOMP121|Memory~14                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[16]                                                  ; |SIMCOMP121|Memory_3_bypass[16]                                                  ; regout           ;
+; |SIMCOMP121|Memory~15                                                            ; |SIMCOMP121|Memory~15                                                            ; out              ;
+; |SIMCOMP121|Memory~16                                                            ; |SIMCOMP121|Memory~16                                                            ; out              ;
+; |SIMCOMP121|Memory~23                                                            ; |SIMCOMP121|Memory~23                                                            ; out              ;
+; |SIMCOMP121|Memory~24                                                            ; |SIMCOMP121|Memory~24                                                            ; out              ;
+; |SIMCOMP121|Memory~25                                                            ; |SIMCOMP121|Memory~25                                                            ; out              ;
+; |SIMCOMP121|Memory~26                                                            ; |SIMCOMP121|Memory~26                                                            ; out              ;
+; |SIMCOMP121|Selector0~0                                                          ; |SIMCOMP121|Selector0~0                                                          ; out              ;
+; |SIMCOMP121|Selector0~1                                                          ; |SIMCOMP121|Selector0~1                                                          ; out              ;
+; |SIMCOMP121|Selector1~0                                                          ; |SIMCOMP121|Selector1~0                                                          ; out              ;
+; |SIMCOMP121|Selector1~1                                                          ; |SIMCOMP121|Selector1~1                                                          ; out              ;
+; |SIMCOMP121|Selector2~0                                                          ; |SIMCOMP121|Selector2~0                                                          ; out              ;
+; |SIMCOMP121|Selector2~1                                                          ; |SIMCOMP121|Selector2~1                                                          ; out              ;
+; |SIMCOMP121|Selector3~0                                                          ; |SIMCOMP121|Selector3~0                                                          ; out              ;
+; |SIMCOMP121|Selector3~1                                                          ; |SIMCOMP121|Selector3~1                                                          ; out              ;
+; |SIMCOMP121|Selector10~0                                                         ; |SIMCOMP121|Selector10~0                                                         ; out              ;
+; |SIMCOMP121|Selector10~1                                                         ; |SIMCOMP121|Selector10~1                                                         ; out              ;
+; |SIMCOMP121|Selector11~0                                                         ; |SIMCOMP121|Selector11~0                                                         ; out              ;
+; |SIMCOMP121|Selector11~1                                                         ; |SIMCOMP121|Selector11~1                                                         ; out              ;
+; |SIMCOMP121|Selector12~0                                                         ; |SIMCOMP121|Selector12~0                                                         ; out              ;
+; |SIMCOMP121|Selector12~1                                                         ; |SIMCOMP121|Selector12~1                                                         ; out              ;
+; |SIMCOMP121|Selector13~0                                                         ; |SIMCOMP121|Selector13~0                                                         ; out              ;
+; |SIMCOMP121|Selector13~1                                                         ; |SIMCOMP121|Selector13~1                                                         ; out              ;
+; |SIMCOMP121|Selector14~0                                                         ; |SIMCOMP121|Selector14~0                                                         ; out              ;
+; |SIMCOMP121|Selector14~1                                                         ; |SIMCOMP121|Selector14~1                                                         ; out              ;
+; |SIMCOMP121|Selector15~0                                                         ; |SIMCOMP121|Selector15~0                                                         ; out              ;
+; |SIMCOMP121|Selector15~1                                                         ; |SIMCOMP121|Selector15~1                                                         ; out              ;
+; |SIMCOMP121|Selector28~0                                                         ; |SIMCOMP121|Selector28~0                                                         ; out              ;
+; |SIMCOMP121|Selector28~1                                                         ; |SIMCOMP121|Selector28~1                                                         ; out              ;
+; |SIMCOMP121|Selector29~0                                                         ; |SIMCOMP121|Selector29~0                                                         ; out              ;
+; |SIMCOMP121|Selector29~1                                                         ; |SIMCOMP121|Selector29~1                                                         ; out              ;
+; |SIMCOMP121|Selector30~0                                                         ; |SIMCOMP121|Selector30~0                                                         ; out              ;
+; |SIMCOMP121|Selector30~1                                                         ; |SIMCOMP121|Selector30~1                                                         ; out              ;
+; |SIMCOMP121|Selector31~0                                                         ; |SIMCOMP121|Selector31~0                                                         ; out              ;
+; |SIMCOMP121|Selector31~1                                                         ; |SIMCOMP121|Selector31~1                                                         ; out              ;
+; |SIMCOMP121|Selector32~0                                                         ; |SIMCOMP121|Selector32~0                                                         ; out              ;
+; |SIMCOMP121|Selector32~1                                                         ; |SIMCOMP121|Selector32~1                                                         ; out              ;
+; |SIMCOMP121|Selector33~0                                                         ; |SIMCOMP121|Selector33~0                                                         ; out              ;
+; |SIMCOMP121|Selector33~1                                                         ; |SIMCOMP121|Selector33~1                                                         ; out              ;
+; |SIMCOMP121|Selector34~0                                                         ; |SIMCOMP121|Selector34~0                                                         ; out0             ;
+; |SIMCOMP121|Selector35~0                                                         ; |SIMCOMP121|Selector35~0                                                         ; out0             ;
+; |SIMCOMP121|Selector36~0                                                         ; |SIMCOMP121|Selector36~0                                                         ; out0             ;
+; |SIMCOMP121|Selector37~0                                                         ; |SIMCOMP121|Selector37~0                                                         ; out0             ;
+; |SIMCOMP121|Selector75~0                                                         ; |SIMCOMP121|Selector75~0                                                         ; out              ;
+; |SIMCOMP121|Selector75~1                                                         ; |SIMCOMP121|Selector75~1                                                         ; out              ;
+; |SIMCOMP121|Selector76~0                                                         ; |SIMCOMP121|Selector76~0                                                         ; out              ;
+; |SIMCOMP121|Selector76~1                                                         ; |SIMCOMP121|Selector76~1                                                         ; out              ;
+; |SIMCOMP121|Selector77~2                                                         ; |SIMCOMP121|Selector77~2                                                         ; out              ;
+; |SIMCOMP121|Selector77~3                                                         ; |SIMCOMP121|Selector77~3                                                         ; out              ;
+; |SIMCOMP121|Decoder0~6                                                           ; |SIMCOMP121|Decoder0~6                                                           ; out              ;
+; |SIMCOMP121|Decoder0~8                                                           ; |SIMCOMP121|Decoder0~8                                                           ; out              ;
+; |SIMCOMP121|Add0~0                                                               ; |SIMCOMP121|Add0~0                                                               ; out0             ;
+; |SIMCOMP121|Add0~1                                                               ; |SIMCOMP121|Add0~1                                                               ; out0             ;
+; |SIMCOMP121|Add0~2                                                               ; |SIMCOMP121|Add0~2                                                               ; out0             ;
+; |SIMCOMP121|Add0~3                                                               ; |SIMCOMP121|Add0~3                                                               ; out0             ;
+; |SIMCOMP121|Add0~4                                                               ; |SIMCOMP121|Add0~4                                                               ; out0             ;
+; |SIMCOMP121|Add0~5                                                               ; |SIMCOMP121|Add0~5                                                               ; out0             ;
+; |SIMCOMP121|Add0~6                                                               ; |SIMCOMP121|Add0~6                                                               ; out0             ;
+; |SIMCOMP121|Add1~0                                                               ; |SIMCOMP121|Add1~0                                                               ; out0             ;
+; |SIMCOMP121|Add1~1                                                               ; |SIMCOMP121|Add1~1                                                               ; out0             ;
+; |SIMCOMP121|Add1~2                                                               ; |SIMCOMP121|Add1~2                                                               ; out0             ;
+; |SIMCOMP121|Add1~3                                                               ; |SIMCOMP121|Add1~3                                                               ; out0             ;
+; |SIMCOMP121|Add1~4                                                               ; |SIMCOMP121|Add1~4                                                               ; out0             ;
+; |SIMCOMP121|Add1~5                                                               ; |SIMCOMP121|Add1~5                                                               ; out0             ;
+; |SIMCOMP121|Add1~6                                                               ; |SIMCOMP121|Add1~6                                                               ; out0             ;
+; |SIMCOMP121|Add1~7                                                               ; |SIMCOMP121|Add1~7                                                               ; out0             ;
+; |SIMCOMP121|Add1~9                                                               ; |SIMCOMP121|Add1~9                                                               ; out0             ;
+; |SIMCOMP121|Add1~11                                                              ; |SIMCOMP121|Add1~11                                                              ; out0             ;
+; |SIMCOMP121|Add1~12                                                              ; |SIMCOMP121|Add1~12                                                              ; out0             ;
+; |SIMCOMP121|Add1~13                                                              ; |SIMCOMP121|Add1~13                                                              ; out0             ;
+; |SIMCOMP121|Add1~14                                                              ; |SIMCOMP121|Add1~14                                                              ; out0             ;
+; |SIMCOMP121|Add1~15                                                              ; |SIMCOMP121|Add1~15                                                              ; out0             ;
+; |SIMCOMP121|Add1~16                                                              ; |SIMCOMP121|Add1~16                                                              ; out0             ;
+; |SIMCOMP121|Add1~17                                                              ; |SIMCOMP121|Add1~17                                                              ; out0             ;
+; |SIMCOMP121|Add2~0                                                               ; |SIMCOMP121|Add2~0                                                               ; out0             ;
+; |SIMCOMP121|Add2~1                                                               ; |SIMCOMP121|Add2~1                                                               ; out0             ;
+; |SIMCOMP121|Add2~2                                                               ; |SIMCOMP121|Add2~2                                                               ; out0             ;
+; |SIMCOMP121|Add2~4                                                               ; |SIMCOMP121|Add2~4                                                               ; out0             ;
+; |SIMCOMP121|Add3~0                                                               ; |SIMCOMP121|Add3~0                                                               ; out0             ;
+; |SIMCOMP121|Add3~1                                                               ; |SIMCOMP121|Add3~1                                                               ; out0             ;
+; |SIMCOMP121|Add3~2                                                               ; |SIMCOMP121|Add3~2                                                               ; out0             ;
+; |SIMCOMP121|Add3~3                                                               ; |SIMCOMP121|Add3~3                                                               ; out0             ;
+; |SIMCOMP121|Add3~4                                                               ; |SIMCOMP121|Add3~4                                                               ; out0             ;
+; |SIMCOMP121|Add3~5                                                               ; |SIMCOMP121|Add3~5                                                               ; out0             ;
+; |SIMCOMP121|Add3~6                                                               ; |SIMCOMP121|Add3~6                                                               ; out0             ;
+; |SIMCOMP121|Add3~7                                                               ; |SIMCOMP121|Add3~7                                                               ; out0             ;
+; |SIMCOMP121|Add3~8                                                               ; |SIMCOMP121|Add3~8                                                               ; out0             ;
+; |SIMCOMP121|Add3~9                                                               ; |SIMCOMP121|Add3~9                                                               ; out0             ;
+; |SIMCOMP121|Add3~10                                                              ; |SIMCOMP121|Add3~10                                                              ; out0             ;
+; |SIMCOMP121|Add3~12                                                              ; |SIMCOMP121|Add3~12                                                              ; out0             ;
+; |SIMCOMP121|Add3~13                                                              ; |SIMCOMP121|Add3~13                                                              ; out0             ;
+; |SIMCOMP121|Add3~14                                                              ; |SIMCOMP121|Add3~14                                                              ; out0             ;
+; |SIMCOMP121|Add3~15                                                              ; |SIMCOMP121|Add3~15                                                              ; out0             ;
+; |SIMCOMP121|Add3~16                                                              ; |SIMCOMP121|Add3~16                                                              ; out0             ;
+; |SIMCOMP121|Add3~17                                                              ; |SIMCOMP121|Add3~17                                                              ; out0             ;
+; |SIMCOMP121|Add3~18                                                              ; |SIMCOMP121|Add3~18                                                              ; out0             ;
+; |SIMCOMP121|Add3~21                                                              ; |SIMCOMP121|Add3~21                                                              ; out0             ;
+; |SIMCOMP121|Add3~22                                                              ; |SIMCOMP121|Add3~22                                                              ; out0             ;
+; |SIMCOMP121|Add3~23                                                              ; |SIMCOMP121|Add3~23                                                              ; out0             ;
+; |SIMCOMP121|Add3~26                                                              ; |SIMCOMP121|Add3~26                                                              ; out0             ;
+; |SIMCOMP121|Add3~27                                                              ; |SIMCOMP121|Add3~27                                                              ; out0             ;
+; |SIMCOMP121|Add3~28                                                              ; |SIMCOMP121|Add3~28                                                              ; out0             ;
+; |SIMCOMP121|Add3~31                                                              ; |SIMCOMP121|Add3~31                                                              ; out0             ;
+; |SIMCOMP121|Add3~32                                                              ; |SIMCOMP121|Add3~32                                                              ; out0             ;
+; |SIMCOMP121|Add3~33                                                              ; |SIMCOMP121|Add3~33                                                              ; out0             ;
+; |SIMCOMP121|Add3~36                                                              ; |SIMCOMP121|Add3~36                                                              ; out0             ;
+; |SIMCOMP121|Add3~37                                                              ; |SIMCOMP121|Add3~37                                                              ; out0             ;
+; |SIMCOMP121|Add3~38                                                              ; |SIMCOMP121|Add3~38                                                              ; out0             ;
+; |SIMCOMP121|Add3~41                                                              ; |SIMCOMP121|Add3~41                                                              ; out0             ;
+; |SIMCOMP121|Add3~42                                                              ; |SIMCOMP121|Add3~42                                                              ; out0             ;
+; |SIMCOMP121|Add3~43                                                              ; |SIMCOMP121|Add3~43                                                              ; out0             ;
+; |SIMCOMP121|Add3~46                                                              ; |SIMCOMP121|Add3~46                                                              ; out0             ;
+; |SIMCOMP121|Add3~47                                                              ; |SIMCOMP121|Add3~47                                                              ; out0             ;
+; |SIMCOMP121|Add3~48                                                              ; |SIMCOMP121|Add3~48                                                              ; out0             ;
+; |SIMCOMP121|Add3~51                                                              ; |SIMCOMP121|Add3~51                                                              ; out0             ;
+; |SIMCOMP121|Add3~52                                                              ; |SIMCOMP121|Add3~52                                                              ; out0             ;
+; |SIMCOMP121|Add3~53                                                              ; |SIMCOMP121|Add3~53                                                              ; out0             ;
+; |SIMCOMP121|Add3~56                                                              ; |SIMCOMP121|Add3~56                                                              ; out0             ;
+; |SIMCOMP121|Add3~57                                                              ; |SIMCOMP121|Add3~57                                                              ; out0             ;
+; |SIMCOMP121|Add3~58                                                              ; |SIMCOMP121|Add3~58                                                              ; out0             ;
+; |SIMCOMP121|Add3~61                                                              ; |SIMCOMP121|Add3~61                                                              ; out0             ;
+; |SIMCOMP121|Add3~62                                                              ; |SIMCOMP121|Add3~62                                                              ; out0             ;
+; |SIMCOMP121|Add3~63                                                              ; |SIMCOMP121|Add3~63                                                              ; out0             ;
+; |SIMCOMP121|Add3~66                                                              ; |SIMCOMP121|Add3~66                                                              ; out0             ;
+; |SIMCOMP121|Add3~67                                                              ; |SIMCOMP121|Add3~67                                                              ; out0             ;
+; |SIMCOMP121|Add3~68                                                              ; |SIMCOMP121|Add3~68                                                              ; out0             ;
+; |SIMCOMP121|Add3~71                                                              ; |SIMCOMP121|Add3~71                                                              ; out0             ;
+; |SIMCOMP121|Add3~72                                                              ; |SIMCOMP121|Add3~72                                                              ; out0             ;
+; |SIMCOMP121|Equal0~0                                                             ; |SIMCOMP121|Equal0~0                                                             ; out0             ;
+; |SIMCOMP121|Equal1~0                                                             ; |SIMCOMP121|Equal1~0                                                             ; out0             ;
+; |SIMCOMP121|Equal2~0                                                             ; |SIMCOMP121|Equal2~0                                                             ; out0             ;
+; |SIMCOMP121|Equal3~0                                                             ; |SIMCOMP121|Equal3~0                                                             ; out0             ;
+; |SIMCOMP121|Equal4~0                                                             ; |SIMCOMP121|Equal4~0                                                             ; out0             ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a0  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a0  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a1  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a1  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a2  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a2  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a3  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a3  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a4  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a4  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a5  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a5  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a12 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a12 ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a13 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a13 ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a14 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a14 ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a15 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a15 ; portbdataout0    ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                               ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                        ; Output Port Name                                                                 ; Output Port Type ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; |SIMCOMP121|PC~0                                                                 ; |SIMCOMP121|PC~0                                                                 ; out              ;
+; |SIMCOMP121|PC~1                                                                 ; |SIMCOMP121|PC~1                                                                 ; out              ;
+; |SIMCOMP121|PC~2                                                                 ; |SIMCOMP121|PC~2                                                                 ; out              ;
+; |SIMCOMP121|PC~3                                                                 ; |SIMCOMP121|PC~3                                                                 ; out              ;
+; |SIMCOMP121|AC[6]~reg0                                                           ; |SIMCOMP121|AC[6]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC~4                                                                 ; |SIMCOMP121|PC~4                                                                 ; out              ;
+; |SIMCOMP121|PC~5                                                                 ; |SIMCOMP121|PC~5                                                                 ; out              ;
+; |SIMCOMP121|PC~6                                                                 ; |SIMCOMP121|PC~6                                                                 ; out              ;
+; |SIMCOMP121|PC~7                                                                 ; |SIMCOMP121|PC~7                                                                 ; out              ;
+; |SIMCOMP121|PC~8                                                                 ; |SIMCOMP121|PC~8                                                                 ; out              ;
+; |SIMCOMP121|AC[5]~reg0                                                           ; |SIMCOMP121|AC[5]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[4]~reg0                                                           ; |SIMCOMP121|AC[4]~reg0                                                           ; regout           ;
+; |SIMCOMP121|state~22                                                             ; |SIMCOMP121|state~22                                                             ; out              ;
+; |SIMCOMP121|state~23                                                             ; |SIMCOMP121|state~23                                                             ; out              ;
+; |SIMCOMP121|state~24                                                             ; |SIMCOMP121|state~24                                                             ; out              ;
+; |SIMCOMP121|AC[7]~reg0                                                           ; |SIMCOMP121|AC[7]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[8]~reg0                                                           ; |SIMCOMP121|AC[8]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[9]~reg0                                                           ; |SIMCOMP121|AC[9]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[10]~reg0                                                          ; |SIMCOMP121|AC[10]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[11]~reg0                                                          ; |SIMCOMP121|AC[11]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[12]~reg0                                                          ; |SIMCOMP121|AC[12]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[13]~reg0                                                          ; |SIMCOMP121|AC[13]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[14]~reg0                                                          ; |SIMCOMP121|AC[14]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[15]~reg0                                                          ; |SIMCOMP121|AC[15]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[4]~reg0                                                          ; |SIMCOMP121|MBR[4]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[5]~reg0                                                          ; |SIMCOMP121|MBR[5]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[6]~reg0                                                          ; |SIMCOMP121|MBR[6]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[7]~reg0                                                          ; |SIMCOMP121|MBR[7]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[8]~reg0                                                          ; |SIMCOMP121|MBR[8]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[9]~reg0                                                          ; |SIMCOMP121|MBR[9]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[10]~reg0                                                         ; |SIMCOMP121|MBR[10]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[11]~reg0                                                         ; |SIMCOMP121|MBR[11]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[12]~reg0                                                         ; |SIMCOMP121|MBR[12]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[13]~reg0                                                         ; |SIMCOMP121|MBR[13]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[14]~reg0                                                         ; |SIMCOMP121|MBR[14]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[15]~reg0                                                         ; |SIMCOMP121|MBR[15]~reg0                                                         ; regout           ;
+; |SIMCOMP121|PC[3]~reg0                                                           ; |SIMCOMP121|PC[3]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[4]~reg0                                                           ; |SIMCOMP121|PC[4]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[5]~reg0                                                           ; |SIMCOMP121|PC[5]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[6]~reg0                                                           ; |SIMCOMP121|PC[6]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[7]~reg0                                                           ; |SIMCOMP121|PC[7]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[8]~reg0                                                           ; |SIMCOMP121|PC[8]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[9]~reg0                                                           ; |SIMCOMP121|PC[9]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[10]~reg0                                                          ; |SIMCOMP121|PC[10]~reg0                                                          ; regout           ;
+; |SIMCOMP121|PC[11]~reg0                                                          ; |SIMCOMP121|PC[11]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[6]~reg0                                                           ; |SIMCOMP121|IR[6]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[7]~reg0                                                           ; |SIMCOMP121|IR[7]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[8]~reg0                                                           ; |SIMCOMP121|IR[8]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[9]~reg0                                                           ; |SIMCOMP121|IR[9]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[10]~reg0                                                          ; |SIMCOMP121|IR[10]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[11]~reg0                                                          ; |SIMCOMP121|IR[11]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[6]~reg0                                                          ; |SIMCOMP121|MAR[6]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[7]~reg0                                                          ; |SIMCOMP121|MAR[7]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[8]~reg0                                                          ; |SIMCOMP121|MAR[8]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[9]~reg0                                                          ; |SIMCOMP121|MAR[9]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[10]~reg0                                                         ; |SIMCOMP121|MAR[10]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MAR[11]~reg0                                                         ; |SIMCOMP121|MAR[11]~reg0                                                         ; regout           ;
+; |SIMCOMP121|PC[3]                                                                ; |SIMCOMP121|PC[3]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[4]                                                                ; |SIMCOMP121|PC[4]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[5]                                                                ; |SIMCOMP121|PC[5]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[6]                                                                ; |SIMCOMP121|PC[6]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[7]                                                                ; |SIMCOMP121|PC[7]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[8]                                                                ; |SIMCOMP121|PC[8]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[9]                                                                ; |SIMCOMP121|PC[9]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[10]                                                               ; |SIMCOMP121|PC[10]                                                               ; pin_out          ;
+; |SIMCOMP121|PC[11]                                                               ; |SIMCOMP121|PC[11]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[6]                                                                ; |SIMCOMP121|IR[6]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[7]                                                                ; |SIMCOMP121|IR[7]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[8]                                                                ; |SIMCOMP121|IR[8]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[9]                                                                ; |SIMCOMP121|IR[9]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[10]                                                               ; |SIMCOMP121|IR[10]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[11]                                                               ; |SIMCOMP121|IR[11]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[4]                                                               ; |SIMCOMP121|MBR[4]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[5]                                                               ; |SIMCOMP121|MBR[5]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[6]                                                               ; |SIMCOMP121|MBR[6]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[7]                                                               ; |SIMCOMP121|MBR[7]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[8]                                                               ; |SIMCOMP121|MBR[8]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[9]                                                               ; |SIMCOMP121|MBR[9]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[10]                                                              ; |SIMCOMP121|MBR[10]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[11]                                                              ; |SIMCOMP121|MBR[11]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[12]                                                              ; |SIMCOMP121|MBR[12]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[13]                                                              ; |SIMCOMP121|MBR[13]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[14]                                                              ; |SIMCOMP121|MBR[14]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[15]                                                              ; |SIMCOMP121|MBR[15]                                                              ; pin_out          ;
+; |SIMCOMP121|AC[4]                                                                ; |SIMCOMP121|AC[4]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[5]                                                                ; |SIMCOMP121|AC[5]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[6]                                                                ; |SIMCOMP121|AC[6]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[7]                                                                ; |SIMCOMP121|AC[7]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[8]                                                                ; |SIMCOMP121|AC[8]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[9]                                                                ; |SIMCOMP121|AC[9]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[10]                                                               ; |SIMCOMP121|AC[10]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[11]                                                               ; |SIMCOMP121|AC[11]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[12]                                                               ; |SIMCOMP121|AC[12]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[13]                                                               ; |SIMCOMP121|AC[13]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[14]                                                               ; |SIMCOMP121|AC[14]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[15]                                                               ; |SIMCOMP121|AC[15]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[6]                                                               ; |SIMCOMP121|MAR[6]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[7]                                                               ; |SIMCOMP121|MAR[7]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[8]                                                               ; |SIMCOMP121|MAR[8]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[9]                                                               ; |SIMCOMP121|MAR[9]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[10]                                                              ; |SIMCOMP121|MAR[10]                                                              ; pin_out          ;
+; |SIMCOMP121|MAR[11]                                                              ; |SIMCOMP121|MAR[11]                                                              ; pin_out          ;
+; |SIMCOMP121|Memory_3_bypass[17]                                                  ; |SIMCOMP121|Memory_3_bypass[17]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[18]                                                  ; |SIMCOMP121|Memory_3_bypass[18]                                                  ; regout           ;
+; |SIMCOMP121|Memory~17                                                            ; |SIMCOMP121|Memory~17                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[19]                                                  ; |SIMCOMP121|Memory_3_bypass[19]                                                  ; regout           ;
+; |SIMCOMP121|Memory~18                                                            ; |SIMCOMP121|Memory~18                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[20]                                                  ; |SIMCOMP121|Memory_3_bypass[20]                                                  ; regout           ;
+; |SIMCOMP121|Memory~19                                                            ; |SIMCOMP121|Memory~19                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[21]                                                  ; |SIMCOMP121|Memory_3_bypass[21]                                                  ; regout           ;
+; |SIMCOMP121|Memory~20                                                            ; |SIMCOMP121|Memory~20                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[22]                                                  ; |SIMCOMP121|Memory_3_bypass[22]                                                  ; regout           ;
+; |SIMCOMP121|Memory~21                                                            ; |SIMCOMP121|Memory~21                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[23]                                                  ; |SIMCOMP121|Memory_3_bypass[23]                                                  ; regout           ;
+; |SIMCOMP121|Memory~22                                                            ; |SIMCOMP121|Memory~22                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[24]                                                  ; |SIMCOMP121|Memory_3_bypass[24]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[25]                                                  ; |SIMCOMP121|Memory_3_bypass[25]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[26]                                                  ; |SIMCOMP121|Memory_3_bypass[26]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[27]                                                  ; |SIMCOMP121|Memory_3_bypass[27]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[28]                                                  ; |SIMCOMP121|Memory_3_bypass[28]                                                  ; regout           ;
+; |SIMCOMP121|Selector4~0                                                          ; |SIMCOMP121|Selector4~0                                                          ; out              ;
+; |SIMCOMP121|Selector4~1                                                          ; |SIMCOMP121|Selector4~1                                                          ; out              ;
+; |SIMCOMP121|Selector5~0                                                          ; |SIMCOMP121|Selector5~0                                                          ; out              ;
+; |SIMCOMP121|Selector5~1                                                          ; |SIMCOMP121|Selector5~1                                                          ; out              ;
+; |SIMCOMP121|Selector6~0                                                          ; |SIMCOMP121|Selector6~0                                                          ; out              ;
+; |SIMCOMP121|Selector6~1                                                          ; |SIMCOMP121|Selector6~1                                                          ; out              ;
+; |SIMCOMP121|Selector7~0                                                          ; |SIMCOMP121|Selector7~0                                                          ; out              ;
+; |SIMCOMP121|Selector7~1                                                          ; |SIMCOMP121|Selector7~1                                                          ; out              ;
+; |SIMCOMP121|Selector8~0                                                          ; |SIMCOMP121|Selector8~0                                                          ; out              ;
+; |SIMCOMP121|Selector8~1                                                          ; |SIMCOMP121|Selector8~1                                                          ; out              ;
+; |SIMCOMP121|Selector9~0                                                          ; |SIMCOMP121|Selector9~0                                                          ; out              ;
+; |SIMCOMP121|Selector9~1                                                          ; |SIMCOMP121|Selector9~1                                                          ; out              ;
+; |SIMCOMP121|Selector22~0                                                         ; |SIMCOMP121|Selector22~0                                                         ; out              ;
+; |SIMCOMP121|Selector22~1                                                         ; |SIMCOMP121|Selector22~1                                                         ; out              ;
+; |SIMCOMP121|Selector23~0                                                         ; |SIMCOMP121|Selector23~0                                                         ; out              ;
+; |SIMCOMP121|Selector23~1                                                         ; |SIMCOMP121|Selector23~1                                                         ; out              ;
+; |SIMCOMP121|Selector24~0                                                         ; |SIMCOMP121|Selector24~0                                                         ; out              ;
+; |SIMCOMP121|Selector24~1                                                         ; |SIMCOMP121|Selector24~1                                                         ; out              ;
+; |SIMCOMP121|Selector25~0                                                         ; |SIMCOMP121|Selector25~0                                                         ; out              ;
+; |SIMCOMP121|Selector25~1                                                         ; |SIMCOMP121|Selector25~1                                                         ; out              ;
+; |SIMCOMP121|Selector26~0                                                         ; |SIMCOMP121|Selector26~0                                                         ; out              ;
+; |SIMCOMP121|Selector26~1                                                         ; |SIMCOMP121|Selector26~1                                                         ; out              ;
+; |SIMCOMP121|Selector27~0                                                         ; |SIMCOMP121|Selector27~0                                                         ; out              ;
+; |SIMCOMP121|Selector27~1                                                         ; |SIMCOMP121|Selector27~1                                                         ; out              ;
+; |SIMCOMP121|Selector34~1                                                         ; |SIMCOMP121|Selector34~1                                                         ; out0             ;
+; |SIMCOMP121|Selector35~1                                                         ; |SIMCOMP121|Selector35~1                                                         ; out0             ;
+; |SIMCOMP121|Selector36~1                                                         ; |SIMCOMP121|Selector36~1                                                         ; out0             ;
+; |SIMCOMP121|Selector37~1                                                         ; |SIMCOMP121|Selector37~1                                                         ; out0             ;
+; |SIMCOMP121|Selector66~0                                                         ; |SIMCOMP121|Selector66~0                                                         ; out              ;
+; |SIMCOMP121|Selector66~1                                                         ; |SIMCOMP121|Selector66~1                                                         ; out              ;
+; |SIMCOMP121|Selector67~0                                                         ; |SIMCOMP121|Selector67~0                                                         ; out              ;
+; |SIMCOMP121|Selector67~1                                                         ; |SIMCOMP121|Selector67~1                                                         ; out              ;
+; |SIMCOMP121|Selector68~0                                                         ; |SIMCOMP121|Selector68~0                                                         ; out              ;
+; |SIMCOMP121|Selector68~1                                                         ; |SIMCOMP121|Selector68~1                                                         ; out              ;
+; |SIMCOMP121|Selector69~0                                                         ; |SIMCOMP121|Selector69~0                                                         ; out              ;
+; |SIMCOMP121|Selector69~1                                                         ; |SIMCOMP121|Selector69~1                                                         ; out              ;
+; |SIMCOMP121|Selector70~0                                                         ; |SIMCOMP121|Selector70~0                                                         ; out              ;
+; |SIMCOMP121|Selector70~1                                                         ; |SIMCOMP121|Selector70~1                                                         ; out              ;
+; |SIMCOMP121|Selector71~0                                                         ; |SIMCOMP121|Selector71~0                                                         ; out              ;
+; |SIMCOMP121|Selector71~1                                                         ; |SIMCOMP121|Selector71~1                                                         ; out              ;
+; |SIMCOMP121|Selector72~0                                                         ; |SIMCOMP121|Selector72~0                                                         ; out              ;
+; |SIMCOMP121|Selector72~1                                                         ; |SIMCOMP121|Selector72~1                                                         ; out              ;
+; |SIMCOMP121|Selector73~0                                                         ; |SIMCOMP121|Selector73~0                                                         ; out              ;
+; |SIMCOMP121|Selector73~1                                                         ; |SIMCOMP121|Selector73~1                                                         ; out              ;
+; |SIMCOMP121|Selector74~0                                                         ; |SIMCOMP121|Selector74~0                                                         ; out              ;
+; |SIMCOMP121|Selector74~1                                                         ; |SIMCOMP121|Selector74~1                                                         ; out              ;
+; |SIMCOMP121|Decoder0~0                                                           ; |SIMCOMP121|Decoder0~0                                                           ; out              ;
+; |SIMCOMP121|Decoder0~1                                                           ; |SIMCOMP121|Decoder0~1                                                           ; out              ;
+; |SIMCOMP121|Decoder0~2                                                           ; |SIMCOMP121|Decoder0~2                                                           ; out              ;
+; |SIMCOMP121|Decoder0~3                                                           ; |SIMCOMP121|Decoder0~3                                                           ; out              ;
+; |SIMCOMP121|Decoder0~4                                                           ; |SIMCOMP121|Decoder0~4                                                           ; out              ;
+; |SIMCOMP121|Decoder0~5                                                           ; |SIMCOMP121|Decoder0~5                                                           ; out              ;
+; |SIMCOMP121|Decoder0~7                                                           ; |SIMCOMP121|Decoder0~7                                                           ; out              ;
+; |SIMCOMP121|Decoder0~9                                                           ; |SIMCOMP121|Decoder0~9                                                           ; out              ;
+; |SIMCOMP121|Decoder0~10                                                          ; |SIMCOMP121|Decoder0~10                                                          ; out              ;
+; |SIMCOMP121|Decoder0~11                                                          ; |SIMCOMP121|Decoder0~11                                                          ; out              ;
+; |SIMCOMP121|Decoder0~12                                                          ; |SIMCOMP121|Decoder0~12                                                          ; out              ;
+; |SIMCOMP121|Add0~7                                                               ; |SIMCOMP121|Add0~7                                                               ; out0             ;
+; |SIMCOMP121|Add0~8                                                               ; |SIMCOMP121|Add0~8                                                               ; out0             ;
+; |SIMCOMP121|Add0~9                                                               ; |SIMCOMP121|Add0~9                                                               ; out0             ;
+; |SIMCOMP121|Add0~10                                                              ; |SIMCOMP121|Add0~10                                                              ; out0             ;
+; |SIMCOMP121|Add0~11                                                              ; |SIMCOMP121|Add0~11                                                              ; out0             ;
+; |SIMCOMP121|Add0~12                                                              ; |SIMCOMP121|Add0~12                                                              ; out0             ;
+; |SIMCOMP121|Add0~13                                                              ; |SIMCOMP121|Add0~13                                                              ; out0             ;
+; |SIMCOMP121|Add0~14                                                              ; |SIMCOMP121|Add0~14                                                              ; out0             ;
+; |SIMCOMP121|Add0~15                                                              ; |SIMCOMP121|Add0~15                                                              ; out0             ;
+; |SIMCOMP121|Add0~16                                                              ; |SIMCOMP121|Add0~16                                                              ; out0             ;
+; |SIMCOMP121|Add0~17                                                              ; |SIMCOMP121|Add0~17                                                              ; out0             ;
+; |SIMCOMP121|Add0~18                                                              ; |SIMCOMP121|Add0~18                                                              ; out0             ;
+; |SIMCOMP121|Add0~19                                                              ; |SIMCOMP121|Add0~19                                                              ; out0             ;
+; |SIMCOMP121|Add0~20                                                              ; |SIMCOMP121|Add0~20                                                              ; out0             ;
+; |SIMCOMP121|Add1~18                                                              ; |SIMCOMP121|Add1~18                                                              ; out0             ;
+; |SIMCOMP121|Add1~19                                                              ; |SIMCOMP121|Add1~19                                                              ; out0             ;
+; |SIMCOMP121|Add1~20                                                              ; |SIMCOMP121|Add1~20                                                              ; out0             ;
+; |SIMCOMP121|Add1~21                                                              ; |SIMCOMP121|Add1~21                                                              ; out0             ;
+; |SIMCOMP121|Add1~22                                                              ; |SIMCOMP121|Add1~22                                                              ; out0             ;
+; |SIMCOMP121|Add1~23                                                              ; |SIMCOMP121|Add1~23                                                              ; out0             ;
+; |SIMCOMP121|Add1~24                                                              ; |SIMCOMP121|Add1~24                                                              ; out0             ;
+; |SIMCOMP121|Add1~25                                                              ; |SIMCOMP121|Add1~25                                                              ; out0             ;
+; |SIMCOMP121|Add1~26                                                              ; |SIMCOMP121|Add1~26                                                              ; out0             ;
+; |SIMCOMP121|Add1~27                                                              ; |SIMCOMP121|Add1~27                                                              ; out0             ;
+; |SIMCOMP121|Add1~28                                                              ; |SIMCOMP121|Add1~28                                                              ; out0             ;
+; |SIMCOMP121|Add1~29                                                              ; |SIMCOMP121|Add1~29                                                              ; out0             ;
+; |SIMCOMP121|Add1~30                                                              ; |SIMCOMP121|Add1~30                                                              ; out0             ;
+; |SIMCOMP121|Add1~31                                                              ; |SIMCOMP121|Add1~31                                                              ; out0             ;
+; |SIMCOMP121|Add1~32                                                              ; |SIMCOMP121|Add1~32                                                              ; out0             ;
+; |SIMCOMP121|Add1~33                                                              ; |SIMCOMP121|Add1~33                                                              ; out0             ;
+; |SIMCOMP121|Add1~34                                                              ; |SIMCOMP121|Add1~34                                                              ; out0             ;
+; |SIMCOMP121|Add1~35                                                              ; |SIMCOMP121|Add1~35                                                              ; out0             ;
+; |SIMCOMP121|Add1~36                                                              ; |SIMCOMP121|Add1~36                                                              ; out0             ;
+; |SIMCOMP121|Add1~37                                                              ; |SIMCOMP121|Add1~37                                                              ; out0             ;
+; |SIMCOMP121|Add1~38                                                              ; |SIMCOMP121|Add1~38                                                              ; out0             ;
+; |SIMCOMP121|Add1~39                                                              ; |SIMCOMP121|Add1~39                                                              ; out0             ;
+; |SIMCOMP121|Add1~40                                                              ; |SIMCOMP121|Add1~40                                                              ; out0             ;
+; |SIMCOMP121|Add1~41                                                              ; |SIMCOMP121|Add1~41                                                              ; out0             ;
+; |SIMCOMP121|Add1~42                                                              ; |SIMCOMP121|Add1~42                                                              ; out0             ;
+; |SIMCOMP121|Add1~43                                                              ; |SIMCOMP121|Add1~43                                                              ; out0             ;
+; |SIMCOMP121|Add1~44                                                              ; |SIMCOMP121|Add1~44                                                              ; out0             ;
+; |SIMCOMP121|Add1~45                                                              ; |SIMCOMP121|Add1~45                                                              ; out0             ;
+; |SIMCOMP121|Add1~46                                                              ; |SIMCOMP121|Add1~46                                                              ; out0             ;
+; |SIMCOMP121|Add1~47                                                              ; |SIMCOMP121|Add1~47                                                              ; out0             ;
+; |SIMCOMP121|Add1~48                                                              ; |SIMCOMP121|Add1~48                                                              ; out0             ;
+; |SIMCOMP121|Add1~49                                                              ; |SIMCOMP121|Add1~49                                                              ; out0             ;
+; |SIMCOMP121|Add1~50                                                              ; |SIMCOMP121|Add1~50                                                              ; out0             ;
+; |SIMCOMP121|Add1~51                                                              ; |SIMCOMP121|Add1~51                                                              ; out0             ;
+; |SIMCOMP121|Add1~52                                                              ; |SIMCOMP121|Add1~52                                                              ; out0             ;
+; |SIMCOMP121|Add1~53                                                              ; |SIMCOMP121|Add1~53                                                              ; out0             ;
+; |SIMCOMP121|Add1~54                                                              ; |SIMCOMP121|Add1~54                                                              ; out0             ;
+; |SIMCOMP121|Add1~55                                                              ; |SIMCOMP121|Add1~55                                                              ; out0             ;
+; |SIMCOMP121|Add1~56                                                              ; |SIMCOMP121|Add1~56                                                              ; out0             ;
+; |SIMCOMP121|Add1~57                                                              ; |SIMCOMP121|Add1~57                                                              ; out0             ;
+; |SIMCOMP121|Add1~58                                                              ; |SIMCOMP121|Add1~58                                                              ; out0             ;
+; |SIMCOMP121|Add1~59                                                              ; |SIMCOMP121|Add1~59                                                              ; out0             ;
+; |SIMCOMP121|Add1~60                                                              ; |SIMCOMP121|Add1~60                                                              ; out0             ;
+; |SIMCOMP121|Add1~61                                                              ; |SIMCOMP121|Add1~61                                                              ; out0             ;
+; |SIMCOMP121|Add1~62                                                              ; |SIMCOMP121|Add1~62                                                              ; out0             ;
+; |SIMCOMP121|Add1~63                                                              ; |SIMCOMP121|Add1~63                                                              ; out0             ;
+; |SIMCOMP121|Add1~64                                                              ; |SIMCOMP121|Add1~64                                                              ; out0             ;
+; |SIMCOMP121|Add1~65                                                              ; |SIMCOMP121|Add1~65                                                              ; out0             ;
+; |SIMCOMP121|Add1~66                                                              ; |SIMCOMP121|Add1~66                                                              ; out0             ;
+; |SIMCOMP121|Add1~67                                                              ; |SIMCOMP121|Add1~67                                                              ; out0             ;
+; |SIMCOMP121|Add1~68                                                              ; |SIMCOMP121|Add1~68                                                              ; out0             ;
+; |SIMCOMP121|Add1~69                                                              ; |SIMCOMP121|Add1~69                                                              ; out0             ;
+; |SIMCOMP121|Add1~70                                                              ; |SIMCOMP121|Add1~70                                                              ; out0             ;
+; |SIMCOMP121|Add1~71                                                              ; |SIMCOMP121|Add1~71                                                              ; out0             ;
+; |SIMCOMP121|Add1~72                                                              ; |SIMCOMP121|Add1~72                                                              ; out0             ;
+; |SIMCOMP121|Add2~3                                                               ; |SIMCOMP121|Add2~3                                                               ; out0             ;
+; |SIMCOMP121|Add2~5                                                               ; |SIMCOMP121|Add2~5                                                               ; out0             ;
+; |SIMCOMP121|Add2~7                                                               ; |SIMCOMP121|Add2~7                                                               ; out0             ;
+; |SIMCOMP121|Add2~9                                                               ; |SIMCOMP121|Add2~9                                                               ; out0             ;
+; |SIMCOMP121|Add2~11                                                              ; |SIMCOMP121|Add2~11                                                              ; out0             ;
+; |SIMCOMP121|Add2~13                                                              ; |SIMCOMP121|Add2~13                                                              ; out0             ;
+; |SIMCOMP121|Add2~15                                                              ; |SIMCOMP121|Add2~15                                                              ; out0             ;
+; |SIMCOMP121|Add2~17                                                              ; |SIMCOMP121|Add2~17                                                              ; out0             ;
+; |SIMCOMP121|Add2~19                                                              ; |SIMCOMP121|Add2~19                                                              ; out0             ;
+; |SIMCOMP121|Add2~21                                                              ; |SIMCOMP121|Add2~21                                                              ; out0             ;
+; |SIMCOMP121|Add2~23                                                              ; |SIMCOMP121|Add2~23                                                              ; out0             ;
+; |SIMCOMP121|Add2~25                                                              ; |SIMCOMP121|Add2~25                                                              ; out0             ;
+; |SIMCOMP121|Add2~27                                                              ; |SIMCOMP121|Add2~27                                                              ; out0             ;
+; |SIMCOMP121|Add3~11                                                              ; |SIMCOMP121|Add3~11                                                              ; out0             ;
+; |SIMCOMP121|Add3~19                                                              ; |SIMCOMP121|Add3~19                                                              ; out0             ;
+; |SIMCOMP121|Add3~20                                                              ; |SIMCOMP121|Add3~20                                                              ; out0             ;
+; |SIMCOMP121|Add3~24                                                              ; |SIMCOMP121|Add3~24                                                              ; out0             ;
+; |SIMCOMP121|Add3~25                                                              ; |SIMCOMP121|Add3~25                                                              ; out0             ;
+; |SIMCOMP121|Add3~29                                                              ; |SIMCOMP121|Add3~29                                                              ; out0             ;
+; |SIMCOMP121|Add3~30                                                              ; |SIMCOMP121|Add3~30                                                              ; out0             ;
+; |SIMCOMP121|Add3~34                                                              ; |SIMCOMP121|Add3~34                                                              ; out0             ;
+; |SIMCOMP121|Add3~35                                                              ; |SIMCOMP121|Add3~35                                                              ; out0             ;
+; |SIMCOMP121|Add3~39                                                              ; |SIMCOMP121|Add3~39                                                              ; out0             ;
+; |SIMCOMP121|Add3~40                                                              ; |SIMCOMP121|Add3~40                                                              ; out0             ;
+; |SIMCOMP121|Add3~44                                                              ; |SIMCOMP121|Add3~44                                                              ; out0             ;
+; |SIMCOMP121|Add3~45                                                              ; |SIMCOMP121|Add3~45                                                              ; out0             ;
+; |SIMCOMP121|Add3~49                                                              ; |SIMCOMP121|Add3~49                                                              ; out0             ;
+; |SIMCOMP121|Add3~50                                                              ; |SIMCOMP121|Add3~50                                                              ; out0             ;
+; |SIMCOMP121|Add3~54                                                              ; |SIMCOMP121|Add3~54                                                              ; out0             ;
+; |SIMCOMP121|Add3~55                                                              ; |SIMCOMP121|Add3~55                                                              ; out0             ;
+; |SIMCOMP121|Add3~59                                                              ; |SIMCOMP121|Add3~59                                                              ; out0             ;
+; |SIMCOMP121|Add3~60                                                              ; |SIMCOMP121|Add3~60                                                              ; out0             ;
+; |SIMCOMP121|Add3~64                                                              ; |SIMCOMP121|Add3~64                                                              ; out0             ;
+; |SIMCOMP121|Add3~65                                                              ; |SIMCOMP121|Add3~65                                                              ; out0             ;
+; |SIMCOMP121|Add3~69                                                              ; |SIMCOMP121|Add3~69                                                              ; out0             ;
+; |SIMCOMP121|Add3~70                                                              ; |SIMCOMP121|Add3~70                                                              ; out0             ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a6  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a6  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a7  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a7  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a8  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a8  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a9  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a9  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a10 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a10 ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a11 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a11 ; portbdataout0    ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                               ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                        ; Output Port Name                                                                 ; Output Port Type ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; |SIMCOMP121|PC~0                                                                 ; |SIMCOMP121|PC~0                                                                 ; out              ;
+; |SIMCOMP121|PC~1                                                                 ; |SIMCOMP121|PC~1                                                                 ; out              ;
+; |SIMCOMP121|PC~2                                                                 ; |SIMCOMP121|PC~2                                                                 ; out              ;
+; |SIMCOMP121|PC~3                                                                 ; |SIMCOMP121|PC~3                                                                 ; out              ;
+; |SIMCOMP121|AC[6]~reg0                                                           ; |SIMCOMP121|AC[6]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC~4                                                                 ; |SIMCOMP121|PC~4                                                                 ; out              ;
+; |SIMCOMP121|PC~5                                                                 ; |SIMCOMP121|PC~5                                                                 ; out              ;
+; |SIMCOMP121|PC~6                                                                 ; |SIMCOMP121|PC~6                                                                 ; out              ;
+; |SIMCOMP121|PC~7                                                                 ; |SIMCOMP121|PC~7                                                                 ; out              ;
+; |SIMCOMP121|PC~8                                                                 ; |SIMCOMP121|PC~8                                                                 ; out              ;
+; |SIMCOMP121|AC[5]~reg0                                                           ; |SIMCOMP121|AC[5]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[4]~reg0                                                           ; |SIMCOMP121|AC[4]~reg0                                                           ; regout           ;
+; |SIMCOMP121|state~22                                                             ; |SIMCOMP121|state~22                                                             ; out              ;
+; |SIMCOMP121|state~23                                                             ; |SIMCOMP121|state~23                                                             ; out              ;
+; |SIMCOMP121|state~24                                                             ; |SIMCOMP121|state~24                                                             ; out              ;
+; |SIMCOMP121|AC[2]~reg0                                                           ; |SIMCOMP121|AC[2]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[7]~reg0                                                           ; |SIMCOMP121|AC[7]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[8]~reg0                                                           ; |SIMCOMP121|AC[8]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[9]~reg0                                                           ; |SIMCOMP121|AC[9]~reg0                                                           ; regout           ;
+; |SIMCOMP121|AC[10]~reg0                                                          ; |SIMCOMP121|AC[10]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[11]~reg0                                                          ; |SIMCOMP121|AC[11]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[12]~reg0                                                          ; |SIMCOMP121|AC[12]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[13]~reg0                                                          ; |SIMCOMP121|AC[13]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[14]~reg0                                                          ; |SIMCOMP121|AC[14]~reg0                                                          ; regout           ;
+; |SIMCOMP121|AC[15]~reg0                                                          ; |SIMCOMP121|AC[15]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[2]~reg0                                                          ; |SIMCOMP121|MBR[2]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[4]~reg0                                                          ; |SIMCOMP121|MBR[4]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[5]~reg0                                                          ; |SIMCOMP121|MBR[5]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[6]~reg0                                                          ; |SIMCOMP121|MBR[6]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[7]~reg0                                                          ; |SIMCOMP121|MBR[7]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[8]~reg0                                                          ; |SIMCOMP121|MBR[8]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[9]~reg0                                                          ; |SIMCOMP121|MBR[9]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MBR[10]~reg0                                                         ; |SIMCOMP121|MBR[10]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[11]~reg0                                                         ; |SIMCOMP121|MBR[11]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[12]~reg0                                                         ; |SIMCOMP121|MBR[12]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[13]~reg0                                                         ; |SIMCOMP121|MBR[13]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[14]~reg0                                                         ; |SIMCOMP121|MBR[14]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MBR[15]~reg0                                                         ; |SIMCOMP121|MBR[15]~reg0                                                         ; regout           ;
+; |SIMCOMP121|PC[3]~reg0                                                           ; |SIMCOMP121|PC[3]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[4]~reg0                                                           ; |SIMCOMP121|PC[4]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[5]~reg0                                                           ; |SIMCOMP121|PC[5]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[6]~reg0                                                           ; |SIMCOMP121|PC[6]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[7]~reg0                                                           ; |SIMCOMP121|PC[7]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[8]~reg0                                                           ; |SIMCOMP121|PC[8]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[9]~reg0                                                           ; |SIMCOMP121|PC[9]~reg0                                                           ; regout           ;
+; |SIMCOMP121|PC[10]~reg0                                                          ; |SIMCOMP121|PC[10]~reg0                                                          ; regout           ;
+; |SIMCOMP121|PC[11]~reg0                                                          ; |SIMCOMP121|PC[11]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[6]~reg0                                                           ; |SIMCOMP121|IR[6]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[7]~reg0                                                           ; |SIMCOMP121|IR[7]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[8]~reg0                                                           ; |SIMCOMP121|IR[8]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[9]~reg0                                                           ; |SIMCOMP121|IR[9]~reg0                                                           ; regout           ;
+; |SIMCOMP121|IR[10]~reg0                                                          ; |SIMCOMP121|IR[10]~reg0                                                          ; regout           ;
+; |SIMCOMP121|IR[11]~reg0                                                          ; |SIMCOMP121|IR[11]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[6]~reg0                                                          ; |SIMCOMP121|MAR[6]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[7]~reg0                                                          ; |SIMCOMP121|MAR[7]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[8]~reg0                                                          ; |SIMCOMP121|MAR[8]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[9]~reg0                                                          ; |SIMCOMP121|MAR[9]~reg0                                                          ; regout           ;
+; |SIMCOMP121|MAR[10]~reg0                                                         ; |SIMCOMP121|MAR[10]~reg0                                                         ; regout           ;
+; |SIMCOMP121|MAR[11]~reg0                                                         ; |SIMCOMP121|MAR[11]~reg0                                                         ; regout           ;
+; |SIMCOMP121|PC[3]                                                                ; |SIMCOMP121|PC[3]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[4]                                                                ; |SIMCOMP121|PC[4]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[5]                                                                ; |SIMCOMP121|PC[5]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[6]                                                                ; |SIMCOMP121|PC[6]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[7]                                                                ; |SIMCOMP121|PC[7]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[8]                                                                ; |SIMCOMP121|PC[8]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[9]                                                                ; |SIMCOMP121|PC[9]                                                                ; pin_out          ;
+; |SIMCOMP121|PC[10]                                                               ; |SIMCOMP121|PC[10]                                                               ; pin_out          ;
+; |SIMCOMP121|PC[11]                                                               ; |SIMCOMP121|PC[11]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[6]                                                                ; |SIMCOMP121|IR[6]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[7]                                                                ; |SIMCOMP121|IR[7]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[8]                                                                ; |SIMCOMP121|IR[8]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[9]                                                                ; |SIMCOMP121|IR[9]                                                                ; pin_out          ;
+; |SIMCOMP121|IR[10]                                                               ; |SIMCOMP121|IR[10]                                                               ; pin_out          ;
+; |SIMCOMP121|IR[11]                                                               ; |SIMCOMP121|IR[11]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[2]                                                               ; |SIMCOMP121|MBR[2]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[4]                                                               ; |SIMCOMP121|MBR[4]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[5]                                                               ; |SIMCOMP121|MBR[5]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[6]                                                               ; |SIMCOMP121|MBR[6]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[7]                                                               ; |SIMCOMP121|MBR[7]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[8]                                                               ; |SIMCOMP121|MBR[8]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[9]                                                               ; |SIMCOMP121|MBR[9]                                                               ; pin_out          ;
+; |SIMCOMP121|MBR[10]                                                              ; |SIMCOMP121|MBR[10]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[11]                                                              ; |SIMCOMP121|MBR[11]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[12]                                                              ; |SIMCOMP121|MBR[12]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[13]                                                              ; |SIMCOMP121|MBR[13]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[14]                                                              ; |SIMCOMP121|MBR[14]                                                              ; pin_out          ;
+; |SIMCOMP121|MBR[15]                                                              ; |SIMCOMP121|MBR[15]                                                              ; pin_out          ;
+; |SIMCOMP121|AC[2]                                                                ; |SIMCOMP121|AC[2]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[4]                                                                ; |SIMCOMP121|AC[4]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[5]                                                                ; |SIMCOMP121|AC[5]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[6]                                                                ; |SIMCOMP121|AC[6]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[7]                                                                ; |SIMCOMP121|AC[7]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[8]                                                                ; |SIMCOMP121|AC[8]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[9]                                                                ; |SIMCOMP121|AC[9]                                                                ; pin_out          ;
+; |SIMCOMP121|AC[10]                                                               ; |SIMCOMP121|AC[10]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[11]                                                               ; |SIMCOMP121|AC[11]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[12]                                                               ; |SIMCOMP121|AC[12]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[13]                                                               ; |SIMCOMP121|AC[13]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[14]                                                               ; |SIMCOMP121|AC[14]                                                               ; pin_out          ;
+; |SIMCOMP121|AC[15]                                                               ; |SIMCOMP121|AC[15]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[6]                                                               ; |SIMCOMP121|MAR[6]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[7]                                                               ; |SIMCOMP121|MAR[7]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[8]                                                               ; |SIMCOMP121|MAR[8]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[9]                                                               ; |SIMCOMP121|MAR[9]                                                               ; pin_out          ;
+; |SIMCOMP121|MAR[10]                                                              ; |SIMCOMP121|MAR[10]                                                              ; pin_out          ;
+; |SIMCOMP121|MAR[11]                                                              ; |SIMCOMP121|MAR[11]                                                              ; pin_out          ;
+; |SIMCOMP121|Memory_3_bypass[15]                                                  ; |SIMCOMP121|Memory_3_bypass[15]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[17]                                                  ; |SIMCOMP121|Memory_3_bypass[17]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[18]                                                  ; |SIMCOMP121|Memory_3_bypass[18]                                                  ; regout           ;
+; |SIMCOMP121|Memory~17                                                            ; |SIMCOMP121|Memory~17                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[19]                                                  ; |SIMCOMP121|Memory_3_bypass[19]                                                  ; regout           ;
+; |SIMCOMP121|Memory~18                                                            ; |SIMCOMP121|Memory~18                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[20]                                                  ; |SIMCOMP121|Memory_3_bypass[20]                                                  ; regout           ;
+; |SIMCOMP121|Memory~19                                                            ; |SIMCOMP121|Memory~19                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[21]                                                  ; |SIMCOMP121|Memory_3_bypass[21]                                                  ; regout           ;
+; |SIMCOMP121|Memory~20                                                            ; |SIMCOMP121|Memory~20                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[22]                                                  ; |SIMCOMP121|Memory_3_bypass[22]                                                  ; regout           ;
+; |SIMCOMP121|Memory~21                                                            ; |SIMCOMP121|Memory~21                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[23]                                                  ; |SIMCOMP121|Memory_3_bypass[23]                                                  ; regout           ;
+; |SIMCOMP121|Memory~22                                                            ; |SIMCOMP121|Memory~22                                                            ; out              ;
+; |SIMCOMP121|Memory_3_bypass[24]                                                  ; |SIMCOMP121|Memory_3_bypass[24]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[25]                                                  ; |SIMCOMP121|Memory_3_bypass[25]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[26]                                                  ; |SIMCOMP121|Memory_3_bypass[26]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[27]                                                  ; |SIMCOMP121|Memory_3_bypass[27]                                                  ; regout           ;
+; |SIMCOMP121|Memory_3_bypass[28]                                                  ; |SIMCOMP121|Memory_3_bypass[28]                                                  ; regout           ;
+; |SIMCOMP121|Selector4~0                                                          ; |SIMCOMP121|Selector4~0                                                          ; out              ;
+; |SIMCOMP121|Selector4~1                                                          ; |SIMCOMP121|Selector4~1                                                          ; out              ;
+; |SIMCOMP121|Selector5~0                                                          ; |SIMCOMP121|Selector5~0                                                          ; out              ;
+; |SIMCOMP121|Selector5~1                                                          ; |SIMCOMP121|Selector5~1                                                          ; out              ;
+; |SIMCOMP121|Selector6~0                                                          ; |SIMCOMP121|Selector6~0                                                          ; out              ;
+; |SIMCOMP121|Selector6~1                                                          ; |SIMCOMP121|Selector6~1                                                          ; out              ;
+; |SIMCOMP121|Selector7~0                                                          ; |SIMCOMP121|Selector7~0                                                          ; out              ;
+; |SIMCOMP121|Selector7~1                                                          ; |SIMCOMP121|Selector7~1                                                          ; out              ;
+; |SIMCOMP121|Selector8~0                                                          ; |SIMCOMP121|Selector8~0                                                          ; out              ;
+; |SIMCOMP121|Selector8~1                                                          ; |SIMCOMP121|Selector8~1                                                          ; out              ;
+; |SIMCOMP121|Selector9~0                                                          ; |SIMCOMP121|Selector9~0                                                          ; out              ;
+; |SIMCOMP121|Selector9~1                                                          ; |SIMCOMP121|Selector9~1                                                          ; out              ;
+; |SIMCOMP121|Selector22~0                                                         ; |SIMCOMP121|Selector22~0                                                         ; out              ;
+; |SIMCOMP121|Selector22~1                                                         ; |SIMCOMP121|Selector22~1                                                         ; out              ;
+; |SIMCOMP121|Selector23~0                                                         ; |SIMCOMP121|Selector23~0                                                         ; out              ;
+; |SIMCOMP121|Selector23~1                                                         ; |SIMCOMP121|Selector23~1                                                         ; out              ;
+; |SIMCOMP121|Selector24~0                                                         ; |SIMCOMP121|Selector24~0                                                         ; out              ;
+; |SIMCOMP121|Selector24~1                                                         ; |SIMCOMP121|Selector24~1                                                         ; out              ;
+; |SIMCOMP121|Selector25~0                                                         ; |SIMCOMP121|Selector25~0                                                         ; out              ;
+; |SIMCOMP121|Selector25~1                                                         ; |SIMCOMP121|Selector25~1                                                         ; out              ;
+; |SIMCOMP121|Selector26~0                                                         ; |SIMCOMP121|Selector26~0                                                         ; out              ;
+; |SIMCOMP121|Selector26~1                                                         ; |SIMCOMP121|Selector26~1                                                         ; out              ;
+; |SIMCOMP121|Selector27~0                                                         ; |SIMCOMP121|Selector27~0                                                         ; out              ;
+; |SIMCOMP121|Selector27~1                                                         ; |SIMCOMP121|Selector27~1                                                         ; out              ;
+; |SIMCOMP121|Selector34~1                                                         ; |SIMCOMP121|Selector34~1                                                         ; out0             ;
+; |SIMCOMP121|Selector35~1                                                         ; |SIMCOMP121|Selector35~1                                                         ; out0             ;
+; |SIMCOMP121|Selector36~1                                                         ; |SIMCOMP121|Selector36~1                                                         ; out0             ;
+; |SIMCOMP121|Selector37~1                                                         ; |SIMCOMP121|Selector37~1                                                         ; out0             ;
+; |SIMCOMP121|Selector66~0                                                         ; |SIMCOMP121|Selector66~0                                                         ; out              ;
+; |SIMCOMP121|Selector66~1                                                         ; |SIMCOMP121|Selector66~1                                                         ; out              ;
+; |SIMCOMP121|Selector67~0                                                         ; |SIMCOMP121|Selector67~0                                                         ; out              ;
+; |SIMCOMP121|Selector67~1                                                         ; |SIMCOMP121|Selector67~1                                                         ; out              ;
+; |SIMCOMP121|Selector68~0                                                         ; |SIMCOMP121|Selector68~0                                                         ; out              ;
+; |SIMCOMP121|Selector68~1                                                         ; |SIMCOMP121|Selector68~1                                                         ; out              ;
+; |SIMCOMP121|Selector69~0                                                         ; |SIMCOMP121|Selector69~0                                                         ; out              ;
+; |SIMCOMP121|Selector69~1                                                         ; |SIMCOMP121|Selector69~1                                                         ; out              ;
+; |SIMCOMP121|Selector70~0                                                         ; |SIMCOMP121|Selector70~0                                                         ; out              ;
+; |SIMCOMP121|Selector70~1                                                         ; |SIMCOMP121|Selector70~1                                                         ; out              ;
+; |SIMCOMP121|Selector71~0                                                         ; |SIMCOMP121|Selector71~0                                                         ; out              ;
+; |SIMCOMP121|Selector71~1                                                         ; |SIMCOMP121|Selector71~1                                                         ; out              ;
+; |SIMCOMP121|Selector72~0                                                         ; |SIMCOMP121|Selector72~0                                                         ; out              ;
+; |SIMCOMP121|Selector72~1                                                         ; |SIMCOMP121|Selector72~1                                                         ; out              ;
+; |SIMCOMP121|Selector73~0                                                         ; |SIMCOMP121|Selector73~0                                                         ; out              ;
+; |SIMCOMP121|Selector73~1                                                         ; |SIMCOMP121|Selector73~1                                                         ; out              ;
+; |SIMCOMP121|Selector74~0                                                         ; |SIMCOMP121|Selector74~0                                                         ; out              ;
+; |SIMCOMP121|Selector74~1                                                         ; |SIMCOMP121|Selector74~1                                                         ; out              ;
+; |SIMCOMP121|Decoder0~1                                                           ; |SIMCOMP121|Decoder0~1                                                           ; out              ;
+; |SIMCOMP121|Decoder0~2                                                           ; |SIMCOMP121|Decoder0~2                                                           ; out              ;
+; |SIMCOMP121|Decoder0~3                                                           ; |SIMCOMP121|Decoder0~3                                                           ; out              ;
+; |SIMCOMP121|Decoder0~4                                                           ; |SIMCOMP121|Decoder0~4                                                           ; out              ;
+; |SIMCOMP121|Decoder0~5                                                           ; |SIMCOMP121|Decoder0~5                                                           ; out              ;
+; |SIMCOMP121|Decoder0~7                                                           ; |SIMCOMP121|Decoder0~7                                                           ; out              ;
+; |SIMCOMP121|Decoder0~9                                                           ; |SIMCOMP121|Decoder0~9                                                           ; out              ;
+; |SIMCOMP121|Decoder0~10                                                          ; |SIMCOMP121|Decoder0~10                                                          ; out              ;
+; |SIMCOMP121|Decoder0~11                                                          ; |SIMCOMP121|Decoder0~11                                                          ; out              ;
+; |SIMCOMP121|Decoder0~12                                                          ; |SIMCOMP121|Decoder0~12                                                          ; out              ;
+; |SIMCOMP121|Add0~7                                                               ; |SIMCOMP121|Add0~7                                                               ; out0             ;
+; |SIMCOMP121|Add0~8                                                               ; |SIMCOMP121|Add0~8                                                               ; out0             ;
+; |SIMCOMP121|Add0~9                                                               ; |SIMCOMP121|Add0~9                                                               ; out0             ;
+; |SIMCOMP121|Add0~10                                                              ; |SIMCOMP121|Add0~10                                                              ; out0             ;
+; |SIMCOMP121|Add0~11                                                              ; |SIMCOMP121|Add0~11                                                              ; out0             ;
+; |SIMCOMP121|Add0~12                                                              ; |SIMCOMP121|Add0~12                                                              ; out0             ;
+; |SIMCOMP121|Add0~13                                                              ; |SIMCOMP121|Add0~13                                                              ; out0             ;
+; |SIMCOMP121|Add0~14                                                              ; |SIMCOMP121|Add0~14                                                              ; out0             ;
+; |SIMCOMP121|Add0~15                                                              ; |SIMCOMP121|Add0~15                                                              ; out0             ;
+; |SIMCOMP121|Add0~16                                                              ; |SIMCOMP121|Add0~16                                                              ; out0             ;
+; |SIMCOMP121|Add0~17                                                              ; |SIMCOMP121|Add0~17                                                              ; out0             ;
+; |SIMCOMP121|Add0~18                                                              ; |SIMCOMP121|Add0~18                                                              ; out0             ;
+; |SIMCOMP121|Add0~19                                                              ; |SIMCOMP121|Add0~19                                                              ; out0             ;
+; |SIMCOMP121|Add0~20                                                              ; |SIMCOMP121|Add0~20                                                              ; out0             ;
+; |SIMCOMP121|Add1~8                                                               ; |SIMCOMP121|Add1~8                                                               ; out0             ;
+; |SIMCOMP121|Add1~10                                                              ; |SIMCOMP121|Add1~10                                                              ; out0             ;
+; |SIMCOMP121|Add1~18                                                              ; |SIMCOMP121|Add1~18                                                              ; out0             ;
+; |SIMCOMP121|Add1~19                                                              ; |SIMCOMP121|Add1~19                                                              ; out0             ;
+; |SIMCOMP121|Add1~20                                                              ; |SIMCOMP121|Add1~20                                                              ; out0             ;
+; |SIMCOMP121|Add1~21                                                              ; |SIMCOMP121|Add1~21                                                              ; out0             ;
+; |SIMCOMP121|Add1~22                                                              ; |SIMCOMP121|Add1~22                                                              ; out0             ;
+; |SIMCOMP121|Add1~23                                                              ; |SIMCOMP121|Add1~23                                                              ; out0             ;
+; |SIMCOMP121|Add1~24                                                              ; |SIMCOMP121|Add1~24                                                              ; out0             ;
+; |SIMCOMP121|Add1~25                                                              ; |SIMCOMP121|Add1~25                                                              ; out0             ;
+; |SIMCOMP121|Add1~26                                                              ; |SIMCOMP121|Add1~26                                                              ; out0             ;
+; |SIMCOMP121|Add1~27                                                              ; |SIMCOMP121|Add1~27                                                              ; out0             ;
+; |SIMCOMP121|Add1~28                                                              ; |SIMCOMP121|Add1~28                                                              ; out0             ;
+; |SIMCOMP121|Add1~29                                                              ; |SIMCOMP121|Add1~29                                                              ; out0             ;
+; |SIMCOMP121|Add1~30                                                              ; |SIMCOMP121|Add1~30                                                              ; out0             ;
+; |SIMCOMP121|Add1~31                                                              ; |SIMCOMP121|Add1~31                                                              ; out0             ;
+; |SIMCOMP121|Add1~32                                                              ; |SIMCOMP121|Add1~32                                                              ; out0             ;
+; |SIMCOMP121|Add1~33                                                              ; |SIMCOMP121|Add1~33                                                              ; out0             ;
+; |SIMCOMP121|Add1~34                                                              ; |SIMCOMP121|Add1~34                                                              ; out0             ;
+; |SIMCOMP121|Add1~35                                                              ; |SIMCOMP121|Add1~35                                                              ; out0             ;
+; |SIMCOMP121|Add1~36                                                              ; |SIMCOMP121|Add1~36                                                              ; out0             ;
+; |SIMCOMP121|Add1~37                                                              ; |SIMCOMP121|Add1~37                                                              ; out0             ;
+; |SIMCOMP121|Add1~38                                                              ; |SIMCOMP121|Add1~38                                                              ; out0             ;
+; |SIMCOMP121|Add1~39                                                              ; |SIMCOMP121|Add1~39                                                              ; out0             ;
+; |SIMCOMP121|Add1~40                                                              ; |SIMCOMP121|Add1~40                                                              ; out0             ;
+; |SIMCOMP121|Add1~41                                                              ; |SIMCOMP121|Add1~41                                                              ; out0             ;
+; |SIMCOMP121|Add1~42                                                              ; |SIMCOMP121|Add1~42                                                              ; out0             ;
+; |SIMCOMP121|Add1~43                                                              ; |SIMCOMP121|Add1~43                                                              ; out0             ;
+; |SIMCOMP121|Add1~44                                                              ; |SIMCOMP121|Add1~44                                                              ; out0             ;
+; |SIMCOMP121|Add1~45                                                              ; |SIMCOMP121|Add1~45                                                              ; out0             ;
+; |SIMCOMP121|Add1~46                                                              ; |SIMCOMP121|Add1~46                                                              ; out0             ;
+; |SIMCOMP121|Add1~47                                                              ; |SIMCOMP121|Add1~47                                                              ; out0             ;
+; |SIMCOMP121|Add1~48                                                              ; |SIMCOMP121|Add1~48                                                              ; out0             ;
+; |SIMCOMP121|Add1~49                                                              ; |SIMCOMP121|Add1~49                                                              ; out0             ;
+; |SIMCOMP121|Add1~50                                                              ; |SIMCOMP121|Add1~50                                                              ; out0             ;
+; |SIMCOMP121|Add1~51                                                              ; |SIMCOMP121|Add1~51                                                              ; out0             ;
+; |SIMCOMP121|Add1~52                                                              ; |SIMCOMP121|Add1~52                                                              ; out0             ;
+; |SIMCOMP121|Add1~53                                                              ; |SIMCOMP121|Add1~53                                                              ; out0             ;
+; |SIMCOMP121|Add1~54                                                              ; |SIMCOMP121|Add1~54                                                              ; out0             ;
+; |SIMCOMP121|Add1~55                                                              ; |SIMCOMP121|Add1~55                                                              ; out0             ;
+; |SIMCOMP121|Add1~56                                                              ; |SIMCOMP121|Add1~56                                                              ; out0             ;
+; |SIMCOMP121|Add1~57                                                              ; |SIMCOMP121|Add1~57                                                              ; out0             ;
+; |SIMCOMP121|Add1~58                                                              ; |SIMCOMP121|Add1~58                                                              ; out0             ;
+; |SIMCOMP121|Add1~59                                                              ; |SIMCOMP121|Add1~59                                                              ; out0             ;
+; |SIMCOMP121|Add1~60                                                              ; |SIMCOMP121|Add1~60                                                              ; out0             ;
+; |SIMCOMP121|Add1~61                                                              ; |SIMCOMP121|Add1~61                                                              ; out0             ;
+; |SIMCOMP121|Add1~62                                                              ; |SIMCOMP121|Add1~62                                                              ; out0             ;
+; |SIMCOMP121|Add1~63                                                              ; |SIMCOMP121|Add1~63                                                              ; out0             ;
+; |SIMCOMP121|Add1~64                                                              ; |SIMCOMP121|Add1~64                                                              ; out0             ;
+; |SIMCOMP121|Add1~65                                                              ; |SIMCOMP121|Add1~65                                                              ; out0             ;
+; |SIMCOMP121|Add1~66                                                              ; |SIMCOMP121|Add1~66                                                              ; out0             ;
+; |SIMCOMP121|Add1~67                                                              ; |SIMCOMP121|Add1~67                                                              ; out0             ;
+; |SIMCOMP121|Add1~68                                                              ; |SIMCOMP121|Add1~68                                                              ; out0             ;
+; |SIMCOMP121|Add1~69                                                              ; |SIMCOMP121|Add1~69                                                              ; out0             ;
+; |SIMCOMP121|Add1~70                                                              ; |SIMCOMP121|Add1~70                                                              ; out0             ;
+; |SIMCOMP121|Add1~71                                                              ; |SIMCOMP121|Add1~71                                                              ; out0             ;
+; |SIMCOMP121|Add1~72                                                              ; |SIMCOMP121|Add1~72                                                              ; out0             ;
+; |SIMCOMP121|Add2~6                                                               ; |SIMCOMP121|Add2~6                                                               ; out0             ;
+; |SIMCOMP121|Add2~8                                                               ; |SIMCOMP121|Add2~8                                                               ; out0             ;
+; |SIMCOMP121|Add2~10                                                              ; |SIMCOMP121|Add2~10                                                              ; out0             ;
+; |SIMCOMP121|Add2~12                                                              ; |SIMCOMP121|Add2~12                                                              ; out0             ;
+; |SIMCOMP121|Add2~14                                                              ; |SIMCOMP121|Add2~14                                                              ; out0             ;
+; |SIMCOMP121|Add2~16                                                              ; |SIMCOMP121|Add2~16                                                              ; out0             ;
+; |SIMCOMP121|Add2~18                                                              ; |SIMCOMP121|Add2~18                                                              ; out0             ;
+; |SIMCOMP121|Add2~20                                                              ; |SIMCOMP121|Add2~20                                                              ; out0             ;
+; |SIMCOMP121|Add2~22                                                              ; |SIMCOMP121|Add2~22                                                              ; out0             ;
+; |SIMCOMP121|Add2~24                                                              ; |SIMCOMP121|Add2~24                                                              ; out0             ;
+; |SIMCOMP121|Add2~26                                                              ; |SIMCOMP121|Add2~26                                                              ; out0             ;
+; |SIMCOMP121|Add2~28                                                              ; |SIMCOMP121|Add2~28                                                              ; out0             ;
+; |SIMCOMP121|Add3~11                                                              ; |SIMCOMP121|Add3~11                                                              ; out0             ;
+; |SIMCOMP121|Add3~19                                                              ; |SIMCOMP121|Add3~19                                                              ; out0             ;
+; |SIMCOMP121|Add3~20                                                              ; |SIMCOMP121|Add3~20                                                              ; out0             ;
+; |SIMCOMP121|Add3~24                                                              ; |SIMCOMP121|Add3~24                                                              ; out0             ;
+; |SIMCOMP121|Add3~25                                                              ; |SIMCOMP121|Add3~25                                                              ; out0             ;
+; |SIMCOMP121|Add3~29                                                              ; |SIMCOMP121|Add3~29                                                              ; out0             ;
+; |SIMCOMP121|Add3~30                                                              ; |SIMCOMP121|Add3~30                                                              ; out0             ;
+; |SIMCOMP121|Add3~34                                                              ; |SIMCOMP121|Add3~34                                                              ; out0             ;
+; |SIMCOMP121|Add3~35                                                              ; |SIMCOMP121|Add3~35                                                              ; out0             ;
+; |SIMCOMP121|Add3~39                                                              ; |SIMCOMP121|Add3~39                                                              ; out0             ;
+; |SIMCOMP121|Add3~40                                                              ; |SIMCOMP121|Add3~40                                                              ; out0             ;
+; |SIMCOMP121|Add3~44                                                              ; |SIMCOMP121|Add3~44                                                              ; out0             ;
+; |SIMCOMP121|Add3~45                                                              ; |SIMCOMP121|Add3~45                                                              ; out0             ;
+; |SIMCOMP121|Add3~49                                                              ; |SIMCOMP121|Add3~49                                                              ; out0             ;
+; |SIMCOMP121|Add3~50                                                              ; |SIMCOMP121|Add3~50                                                              ; out0             ;
+; |SIMCOMP121|Add3~54                                                              ; |SIMCOMP121|Add3~54                                                              ; out0             ;
+; |SIMCOMP121|Add3~55                                                              ; |SIMCOMP121|Add3~55                                                              ; out0             ;
+; |SIMCOMP121|Add3~59                                                              ; |SIMCOMP121|Add3~59                                                              ; out0             ;
+; |SIMCOMP121|Add3~60                                                              ; |SIMCOMP121|Add3~60                                                              ; out0             ;
+; |SIMCOMP121|Add3~64                                                              ; |SIMCOMP121|Add3~64                                                              ; out0             ;
+; |SIMCOMP121|Add3~65                                                              ; |SIMCOMP121|Add3~65                                                              ; out0             ;
+; |SIMCOMP121|Add3~69                                                              ; |SIMCOMP121|Add3~69                                                              ; out0             ;
+; |SIMCOMP121|Add3~70                                                              ; |SIMCOMP121|Add3~70                                                              ; out0             ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a6  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a6  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a7  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a7  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a8  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a8  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a9  ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a9  ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a10 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a10 ; portbdataout0    ;
+; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a11 ; |SIMCOMP121|altsyncram:Memory_rtl_0|altsyncram_r9n1:auto_generated|ram_block1a11 ; portbdataout0    ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
+    Info: Processing started: Tue Apr 30 09:12:26 2024
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off exp10 -c exp10
+Info: Using vector source file "C:/Users/OC/Desktop/exp#10/wav2.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      51.58 %
+Info: Number of transitions in simulation is 6204
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 157 megabytes
+    Info: Processing ended: Tue Apr 30 09:12:27 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
